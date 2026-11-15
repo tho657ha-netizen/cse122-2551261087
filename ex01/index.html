@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 01: Trang thơ Bốn mùa</title>
+    <style>
+        :root {
+            --bg-khung: #FFFDE7;
+            --border-khung: #9E9E9E;
+            --bg-tieude: #FFD9E6;
+            --color-do: #D40000;
+            --color-xanh: #0033CC;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .khung-tho {
+            width: 640px;
+            max-width: 95%;
+            background-color: var(--bg-khung);
+            border: 1px solid var(--border-khung);
+            padding: 24px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--color-do);
+            background-color: var(--bg-tieude);
+            font-size: 26px;
+            font-weight: bold;
+            padding: 6px 0;
+            margin: 0 0 20px 0;
+        }
+
+        p {
+            font-style: italic;
+            line-height: 1.7;
+            margin: 16px 0;
+        }
+
+        .kho-xanh {
+            color: var(--color-xanh);
+        }
+
+        .kho-do {
+            color: var(--color-do);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--color-xanh);
+            width: 55%;
+            margin: 18px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <article class="khung-tho">
+        <h1>BỐN MÙA</h1>
+
+        <p class="kho-xanh">
+            Xuân về hoa nở khắp trời<br>
+            Hạ sang nắng cháy rạng ngời phố quen<br>
+            Thu về lá rụng bên thềm
+        </p>
+
+        <hr>
+
+        <p class="kho-do">
+            Đông sang gió lạnh bên em đợi chờ<br>
+            Bốn mùa là bốn giấc mơ<br>
+            Thời gian đi mãi ta chờ đợi ai
+        </p>
+
+        <hr>
+
+        <p class="kho-xanh">
+            Một năm rồi lại một năm<br>
+            Vẫn còn câu hát thì thầm quê hương<br>
+            Chờ xuân nắng mới soi đường
+        </p>
+    </article>
+
+</body>
+</html>
